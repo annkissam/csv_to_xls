@@ -7,14 +7,12 @@ Main {
   argument('input') {
     required
     cast :string
-    # validate {|_| true }
     description 'the CSV to convert'
   }
 
   argument('output') {
     required
     cast :string
-    # validate {|_| true }
     description 'the XLS to create'
   }
 

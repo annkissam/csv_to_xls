@@ -1,8 +1,6 @@
 # CsvToXls
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/csv_to_xls`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A CLI wrapper around the [spreadsheet](https://github.com/zdavatz/spreadsheet) gem to convert a CSV input file into an XLS output file.
 
 ## Installation
 
@@ -22,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`
+csv_to_xls input_path.csv output_path.xls
+`
 
 ## Development
 
@@ -32,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/csv_to_xls.
+Bug reports and pull requests are welcome on GitHub at https://github.com/annkissam/csv_to_xls.

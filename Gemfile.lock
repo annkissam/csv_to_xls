@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    csv_to_xls (0.1.0)
+    csv_to_xls (0.1.1)
       main
       spreadsheet
 
@@ -33,7 +33,7 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     ruby-ole (1.2.12.2)
-    spreadsheet (1.2.3)
+    spreadsheet (1.2.4)
       ruby-ole (>= 1.0)
 
 PLATFORMS
